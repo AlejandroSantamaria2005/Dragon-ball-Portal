@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10131c">
+  <meta name="description" content="Explora personajes, planetas y transformaciones del universo Dragon Ball.">
+  <title>Dragon Ball — Archivo Z</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#app">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="#/inicio" aria-label="Archivo Z, ir al inicio">
+      <span class="brand-mark" aria-hidden="true">Z</span>
+      <span>ARCHIVO <b>Z</b></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#/inicio" data-nav="inicio">Inicio</a>
+      <a href="#/personajes" data-nav="personajes">Personajes</a>
+      <a href="#/planetas" data-nav="planetas">Planetas</a>
+      <a href="#/favoritos" data-nav="favoritos">Favoritos <span class="nav-favorite-count" aria-label="favoritos">0</span></a>
+      <a href="#/quiz" data-nav="quiz">Quiz</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Cambiar a tema claro" title="Cambiar tema"><span aria-hidden="true">☼</span></button>
+  </header>
+
+  <main id="app" tabindex="-1" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <a class="brand brand-footer" href="#/inicio"><span class="brand-mark" aria-hidden="true">Z</span><span>ARCHIVO <b>Z</b></span></a>
+    <p>Un archivo fan-made para explorar el universo Dragon Ball.</p>
+    <p>Datos proporcionados por <a href="https://dragonball-api.com/" target="_blank" rel="noopener noreferrer">Dragon Ball API</a>.</p>
+    <span class="footer-note">No afiliado a Toei Animation ni a sus propietarios.</span>
+  </footer>
+  <button class="back-to-top" type="button" aria-label="Volver arriba" title="Volver arriba">↑</button>
+</body>
+</html>
